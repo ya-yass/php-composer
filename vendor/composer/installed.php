@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c58a1539e849aa087710f1676f803edce162c7ae',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c58a1539e849aa087710f1676f803edce162c7ae',
             'dev_requirement' => false,
         ),
         'codeguy/upload' => array(
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../kevinlebrun/slug.php',
             'aliases' => array(),
             'reference' => '96af9eb40e8f5bb3a44b59c9f777d3301dfaebe0',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.8.0',
+            'version' => '6.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'df16b615e371d81fb79e506277faea67a1be18f1',
             'dev_requirement' => false,
         ),
         'rundiz/upload' => array(

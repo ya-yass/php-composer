@@ -11,12 +11,20 @@ class ComposerStaticInit25f8e3b702ef764a6c077ccae278b2af
         array (
             'Rundiz\\Upload\\' => 14,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Rundiz\\Upload\\' => 
         array (
             0 => __DIR__ . '/..' . '/rundiz/upload/Rundiz/Upload',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
     );
 

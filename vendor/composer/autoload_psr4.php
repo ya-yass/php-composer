@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Rundiz\\Upload\\' => array($vendorDir . '/rundiz/upload/Rundiz/Upload'),
+    'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
 );
